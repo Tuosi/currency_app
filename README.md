@@ -1,21 +1,7 @@
 # CurrencyApp
 
-**TODO: Add description**
+Desc: currency convertor
 
-## Installation
+## play
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `currency_app` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:currency_app, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/currency_app](https://hexdocs.pm/currency_app).
-
+mix run -e "CurrencyApp.Conversion.from_euro_to_dollar(15) |> IO.puts"

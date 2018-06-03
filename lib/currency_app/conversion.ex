@@ -20,5 +20,3 @@ defmodule CurrencyApp.Conversion do
   defp find_euro([_ | tail]), do: find_euro(tail)
   defp find_euro([]), do: raise "No rate found for Euro"
 end
-
-# mix run -e "CurrencyApp.Conversion.from_euro_to_dollar(15) |> IO.puts"
